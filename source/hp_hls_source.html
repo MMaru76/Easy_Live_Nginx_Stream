@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>MediaElement</title>
+  <!-- MediaElement style -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.9/mediaelementplayer.css" />
+</head>
+
+<body>
+  <!-- MediaElement -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.9/mediaelement-and-player.js"></script>
+
+  <video id="player" width="640" height="360">
+</body>
+<script type="text/javascript">
+
+      var player = new MediaElementPlayer('player', {
+        success: function(mediaElement, originalNode) {
+          console.log("Player initialised");
+        }
+      });
+        player.setSrc("hls/obs_test.m3u8");
+</script>
+
+</html>

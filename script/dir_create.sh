@@ -30,3 +30,8 @@ players_cp() {
     pushd $HOME/Easy_Live_Nginx_Stream
     cp source/hp_dash_source.html /usr/local/nginx/html/hp_dash.html
 }
+
+rtmp_cp;
+nginx_conf;
+service_on;
+players_cp;

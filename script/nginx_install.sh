@@ -19,3 +19,5 @@ nginx_compile() {
     make
     make install
 }
+
+nginx_compile;

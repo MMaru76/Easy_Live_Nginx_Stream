@@ -11,3 +11,6 @@ dir_mod() {
     pushd $HOME/Easy_Live_Nginx_Stream
     sh dir_create.sh
 }
+
+install_dir;
+dir_mod;

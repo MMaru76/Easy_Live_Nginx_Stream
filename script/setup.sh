@@ -1,7 +1,13 @@
 #!/bin/sh
 
 # First script
-sh nginx_install.sh
+install_dir() {
+    pushd $HOME/Easy_Live_Nginx_Stream
+    sh nginx_install.sh
+}
 
 # Second script
-sh dir_create.sh
+dir_mod() {
+    pushd $HOME/Easy_Live_Nginx_Stream
+    sh dir_create.sh
+}

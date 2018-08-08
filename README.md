@@ -8,5 +8,6 @@ Qiita のブログで使用する材料を置いております。
 hp_dash/hls.htmlは自分の配信環境に合わせる。
 
 ```
+git clone https://github.com/marutyan76/Easy_Live_Nginx_Stream.git
 sh script/setup.sh
 ```

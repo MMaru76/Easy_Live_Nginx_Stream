@@ -1,6 +1,6 @@
 # Easy_Live_Nginx_Stream
 
-[Qiita](https://qiita.com/m_maru76/items/11b9fe58f13c7310cb0a) に投稿しているブログのソースコードなどになります。
+[TABIYA-BLOG](https://tabiya.jp/2018/11/28/archives/242) に投稿しているブログのソースコードなどになります。
 
 下のコマンドにそって実行をすると、3〜5分程度でFFMPEG無しのLive配信環境の構築が出来ます。
 
